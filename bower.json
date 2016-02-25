@@ -1,0 +1,30 @@
+{
+  "name": "atm",
+  "authors": [
+    "Carlos Vazquez <carlosvazquezmurillo@gmail.com>"
+  ],
+  "description": "Frontend",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "atm"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~3.3.1",
+    "jquery": "~2.2.1",
+    "bootstrap-sass": "~3.3.6",
+    "font-awesome": "latest",
+    "open-sans-fontface": "latest",
+    "roboto-fontface": "latest"
+  }
+}
