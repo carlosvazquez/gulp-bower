@@ -8,10 +8,101 @@
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+  .parallax1 {
+    height:100vh;
+  }
+  .slideintro {
+    margin-top: 7em;
+    h1 {font-size: 3em;}
+  }
+
+  .slideimage {
+    margin-top: 7em;
+  }
+  // Image container width 100%
+  .img-container {
+    img {width: 100%; height: auto;}
+  }
+
+  // Parallax effect
+  body.home {
+    .parallax1 {
+    	background: transparent url('../images/tablet/principal.png') no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  }
+
+
+  .navbar-default {
+    a.navbar-brand.hidden-xs.hidden-sm {
+      display: block; max-width: 100%; height: auto;
+      margin-top: -2.6em;
+      svg.svg-color path { fill: $brand-primary;}
+      }
+    ul.nav.navbar-nav {
+      li {
+        text-transform: uppercase;font-family: "Roboto Condensed";
+        font-size: 1.45em;
+        margin-left: 1.4em;
+        a {padding-left: 0; padding-right: 0;}
+      }
+      li.active {
+        a {
+          color: $brand-primary; background-color: transparent;
+          border-bottom: 4px solid $brand-primary;
+        }
+        a:hover {}
+        a:active {
+        }
+      }
+    }
+  }
+
+
+
+  // Navbar
+  .navbar-default.bg-navbar {
+    background-color: rgba(0, 0, 0, .5);
+    a.navbar-brand {color: $white;}
+    a.navbar-brand:hover {color: $white;}
+    a.navbar-brand svg.svg-color path {
+      fill: $white;
+    }
+    ul.nav.navbar-nav {
+      li {
+        a {color: $white;}
+        a:hover {color: $white;}
+        a:active {
+          background-color: #ccc;
+        }
+      }
+      li.active {
+        a {
+          color: $white; background-color: transparent;
+          border-bottom: 4px solid $brand-primary;
+        }
+        a:hover {}
+        a:active {
+        }
+      }
+    }
+  }
+.videoplayer {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding-left:50px; padding-right:50px;
+}
+
+
+
 
 }
 
@@ -19,6 +110,51 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+  .navbar-default {
+    a.navbar-brand {
+
+      svg.svg-color path {}
+      }
+    ul.nav.navbar-nav {
+      li {
+        margin-left: 1.5em;
+        a {}
+      }
+      li.active {
+        a {}
+        a:hover {}
+        a:active {
+        }
+      }
+    }
+  }
+  .videoplayer {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left:100px; padding-right:100px;
+  }
+  // Parallax effect
+  body.home {
+    .parallax1 {
+    	background: transparent url('../images/lgtablet/principal.png') no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  }
+  .slideintro {
+    margin-top: 12em;
+    h1 {font-size: 3em;}
+  }
+
+  .slideimage {
+    margin-top: 7em;
+    margin-bottom: 6em;
+  }
+
+
+
 
 
 
@@ -26,6 +162,63 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+  .parallax1 {
+    background-attachment: fixed;
+    height:100vh;
+  }
+  // Parallax effect
+  body.home {
+    .parallax1 {
+    	background: transparent url('../images/principal.png') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  }
+
+
+  .navbar-default {
+    a.navbar-brand {
+
+      svg.svg-color path {}
+      }
+    ul.nav.navbar-nav {
+      li {
+        margin-left: 2.5em;
+        a {}
+      }
+      li.active {
+        a {}
+        a:hover {}
+        a:active {
+        }
+      }
+    }
+  }
+  .videoplayer {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left:150px; padding-right:150px;
+  }
+  .slideintro {
+    margin-top: 16em;
+    margin-bottom: 6em;
+    h1 {font-size: 3em;}
+  }
+
+  .slideimage {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+
+
+
+
+
+
+
+
 
 
 }
