@@ -8337,6 +8337,24 @@ button.close {
   width: 100%;
   height: auto; }
 
+strong {
+  color: #176c96 !important; }
+
+.well {
+  border-color: #e4f3fb;
+  background-color: #fafdfe; }
+
+p.price {
+  color: #33a7e0;
+  font-size: 2em;
+  font-weight: 700; }
+
+p.price span {
+  color: black;
+  font-weight: normal;
+  font-size: .65em;
+  text-transform: uppercase; }
+
 .navbar-default {
   background-color: #eeeeee;
   border-width: 0;
@@ -8432,10 +8450,14 @@ body {
   padding-top: 50px; }
 
 .slideintro {
-  margin-top: 1em; }
+  margin-top: 0em; }
 
 .slideintro h1 {
   font-size: 2em; }
+
+.slideform {
+  margin-top: 0em;
+  margin-bottom: 2em; }
 
 body.home .parallax1 {
   background: transparent url("../images/mobile/principal.png") no-repeat center center;
@@ -8446,7 +8468,11 @@ body.home .parallax1 {
 
 body.libros .parallax1 {
   background-image: none;
-  background-color: #5fbae6; }
+  background-color: #49b0e3; }
+
+body.curso .parallax1 {
+  background-image: none;
+  background-color: #49b0e3; }
 
 .navbar-default .navbar-toggle {
   border: 1px solid white; }
@@ -8494,6 +8520,8 @@ section.intro {
   .slideintro h1 {
     font-size: 3em; }
   .slideimage {
+    margin-top: 7em; }
+  .slideform {
     margin-top: 7em; }
   .img-container img {
     width: 100%;
@@ -8566,6 +8594,8 @@ section.intro {
     margin-top: 12em; }
   .slideintro h1 {
     font-size: 3em; }
+  .slideform {
+    margin-top: 9em; }
   .slideimage {
     margin-top: 7em;
     margin-bottom: 6em; } }
@@ -8593,6 +8623,8 @@ section.intro {
     margin-bottom: 6em; }
   .slideintro h1 {
     font-size: 3em; }
+  .slideform {
+    margin-top: 9em; }
   .slideimage {
     margin-top: 0em;
     margin-bottom: 0em; } }

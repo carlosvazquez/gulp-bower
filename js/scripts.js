@@ -66,21 +66,38 @@
 // 	speed :	0.25
 // });
 
+$(document).on('ready', function(){
+    var targetOffset = $("#anchor-point").offset().top;
 
-var targetOffset = $("#anchor-point").offset().top;
+    var $w = $(window).scroll(function(){
+        if ( $w.scrollTop() < targetOffset ) {
+          $('.navbar-default').addClass("bg-navbar");
+          $('svg').removeClass("svg-color");
+        } else {
+          $('.navbar-default').removeClass("bg-navbar");
+          $('svg').addClass("svg-color");
+        }
+    });
 
-var $w = $(window).scroll(function(){
-    if ( $w.scrollTop() < targetOffset ) {
-      $('.navbar-default').addClass("bg-navbar");
-      $('svg').removeClass("svg-color");
-    } else {
-      $('.navbar-default').removeClass("bg-navbar");
-      $('svg').addClass("svg-color");
-    }
+    $("a.confirm").click(function(e) {
+      e.preventDefault();
+      if(confirm( "Saldrá de este sitio y será dirigido a nuestra tienda.")) {
+        window.location.href = 'http://www.playcreativepiano.com/es/store/albums';
+      }
+    });
+
+
+
+    $("a.indice").click(function (e) {
+      e.preventDefault();
+      $(this).text(function(i, text){
+          return text === "Ver índice" ? "Cerrar" : "Ver índice";
+      })
+    });
+
+    $.validate({
+    modules : 'sanitize'
+    });
+
+
 });
-
-window.addEventListener("orientationchange", function() {
-  if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) {
-    document.documentElement.innerHTML = document.documentElement.innerHTML;
-  }
-}, false);

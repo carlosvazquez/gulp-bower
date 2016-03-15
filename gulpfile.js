@@ -17,6 +17,8 @@ var config = {
     bootstrapSass: bower + 'bootstrap-sass',
     bootstrapJs: bower + 'bootstrap-sass/assets/javascripts/bootstrap.js',
     jquery: bower + 'jquery/dist/jquery.js',
+    validator: bower + 'jquery-form-validator/form-validator/jquery.form-validator.js',
+    validatorlang: bower + 'jquery-form-validator/form-validator/lang/es.js',
     publicDir: './public',
     scripts: 'js/*.js',
     img: 'images'
@@ -44,13 +46,13 @@ gulp.task('css', function() {
 });
 
 
-gulp.task('images', function(cb) {
-    gulp.src([config.img+'/**/*.png', config.img+'/**/*.jpg', config.img+'/**/*.gif', config.img+'/**/*.jpeg', config.img+'/**/*.svg']).pipe(imageop({
-        optimizationLevel: 5,
-        progressive: true,
-        interlaced: true
-    })).pipe(gulp.dest('public/images')).on('end', cb).on('error', cb);
-});
+// gulp.task('images', function(cb) {
+//     gulp.src([config.img+'/**/*.png', config.img+'/**/*.jpg', config.img+'/**/*.gif', config.img+'/**/*.jpeg', config.img+'/**/*.svg']).pipe(imageop({
+//         optimizationLevel: 5,
+//         progressive: true,
+//         interlaced: true
+//     })).pipe(gulp.dest('public/images')).on('end', cb).on('error', cb);
+// });
 
 
 gulp.task('fonts', function() {
@@ -62,6 +64,8 @@ gulp.task('scripts', function() {
   return gulp.src([
     config.jquery,
     config.bootstrapJs,
+    config.validator,
+    config.validatorlang,
     config.scripts
   ])
     .pipe(concat('app.js'))
@@ -80,12 +84,12 @@ gulp.task('watch', function () {
     livereload.listen();
     gulp.watch('./sass/*.scss', ['css']);
     gulp.watch('./*.html', ['templates']);
-    gulp.watch('./images/*.jpg', ['images']);
-    gulp.watch('./images/*.svg', ['images']);
-    gulp.watch('./images/*.jpeg', ['images']);
-    gulp.watch('./images/*.png', ['images']);
-    gulp.watch('./images/*.gif', ['images']);
+    // gulp.watch('./images/*.jpg', ['images']);
+    // gulp.watch('./images/*.svg', ['images']);
+    // gulp.watch('./images/*.jpeg', ['images']);
+    // gulp.watch('./images/*.png', ['images']);
+    // gulp.watch('./images/*.gif', ['images']);
     gulp.watch('./js/*.js', ['scripts']);
 });
 
-gulp.task('default', ['webserver','css', 'fonts', 'watch','scripts','images','templates']);
+gulp.task('default', ['webserver','css', 'fonts', 'watch','scripts', 'templates']);
