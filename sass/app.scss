@@ -214,13 +214,16 @@ body.libros {
     background-color: lighten($brand-primary, 5%);
   }
 }
-body.curso {
+body.curso, body.libros, body.autor, body.contacto {
   .parallax1 {
   	background-image: none;
     background-color: lighten($brand-primary, 5%);
 //    background-color: lighten(rgba(37,155,209,1), 40%);
   }
 }
+
+
+
 
 // Toggle
 .navbar-default .navbar-toggle {

@@ -76,9 +76,9 @@ if(isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
     $mail->FromName = "ATM Web";
 
     //To address and name
-    $mail->addAddress("sys@playcreativepiano.com", "Dirección");
-    $mail->addAddress("carlosvazquez@outlook.com", "Dev"); //Recipient name is optional
-    //$mail->addAddress("carlosvazquezmurillo@gmail.com", "Dev"); //Recipient name is optional
+    $mail->addAddress("sys@playcreativepiano.com", "No-Reply");
+    $mail->addAddress("carlosvazquez@outlook.com", "Development"); //Recipient name is optional
+    $mail->addAddress("pianocreativ@yahoo.com", "Piano Creativo"); //Recipient name is optional
 
     //Address to which recipient will reply
     $mail->addReplyTo($email, $name);
@@ -100,7 +100,7 @@ if(isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
     }
     else
     {
-        header("Location: ../gracias.html");
+        header("Location: ../gracias");
     }
 
   } else {

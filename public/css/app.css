@@ -8473,7 +8473,7 @@ body.libros .parallax1 {
   background-image: none;
   background-color: #49b0e3; }
 
-body.curso .parallax1 {
+body.curso .parallax1, body.libros .parallax1, body.autor .parallax1, body.contacto .parallax1 {
   background-image: none;
   background-color: #49b0e3; }
 
