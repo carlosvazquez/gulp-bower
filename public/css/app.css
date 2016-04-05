@@ -8420,6 +8420,31 @@ ul.language li {
   max-width: 100%;
   height: auto; }
 
+section#dirigido {
+  margin-top: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: #f1f9fd; }
+
+section#asesorias {
+  margin-top: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+
+section#asesorias img {
+  max-width: 100%;
+  height: auto; }
+
+section#planestudios {
+  padding-bottom: 3em;
+  background-color: #f1f9fd; }
+
+section#promoprecios {
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  background-color: #f1f9fd; }
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {

@@ -135,11 +135,31 @@ ul.language {
   img {max-width: 100%; height: auto;}
 }
 
+section#dirigido {
+  margin-top: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: lighten($brand-primary, 43%);
+}
 
+section#asesorias {
+  margin-top: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  img {max-width: 100%; height: auto;}
+}
 
+section#planestudios {
+  padding-bottom: 3em;
+  background-color: lighten($brand-primary, 43%);
+}
 
-
-
+section#promoprecios {
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  background-color: lighten($brand-primary, 43%);
+}
 
 
 
