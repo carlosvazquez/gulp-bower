@@ -25,4 +25,5 @@
       </div>
     </div>
   </section>
+  <section id="anchor-point"></section>
   <?php require_once '../include/footer.php'; ?>

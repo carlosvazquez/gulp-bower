@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="google-site-verification" content="SrXDNNKoTVrNTHlj0bAVIe3i7qK3WvZ0O3r4lUbGQU4" />
   <title>Armonía Tonal Moderna | Cursos y libros para piano</title>
   <link rel="stylesheet" href="../css/app.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,700,700italic|Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>

@@ -32,7 +32,7 @@
           </p>
           <p><strong>Comprar</strong>
           </p>
-          <p><a href="#" class="btn btn-success btn-sm" role="button">Libro digital</a>  <a href="#" class="btn btn-primary btn-sm" role="button">Libro impreso</a>
+          <p><a target="_blank" href="http://www.playcreativepiano.com/es/products/5" class="btn btn-success btn-sm" role="button">Libro digital</a>
           </p>
         </div>
         <!-- image container -->
@@ -81,7 +81,7 @@
           </p>
           <p><strong>Comprar</strong>
           </p>
-          <p><a href="#" class="btn btn-success btn-sm">Libro digital</a>  <a href="#" class="btn btn-primary btn-sm">Libro impreso</a>
+          <p><a target="_blank" href="http://www.playcreativepiano.com/es/products/4" class="btn btn-success btn-sm">Libro digital</a>
           </p>
         </div>
         <!-- image container -->
@@ -130,7 +130,7 @@
           </p>
           <p><strong>Comprar</strong>
           </p>
-          <p><a href="#" class="btn btn-success btn-sm">Libro digital</a>  <a href="#" class="btn btn-primary btn-sm">Libro impreso</a>
+          <p><a target="_blank" href="http://www.playcreativepiano.com/es/products/6" class="btn btn-success btn-sm">Libro digital</a>
           </p>
         </div>
         <!-- image container -->
@@ -168,13 +168,13 @@
           </p>
           <p><strong>Comprar</strong>
           </p>
-          <p><a href="#" class="btn btn-success btn-sm">Libro digital</a>  <a href="#" class="btn btn-primary btn-sm">Libro impreso</a>
+          <p><a target="_blank" href="http://www.playcreativepiano.com/es/products/35" class="btn btn-success btn-sm">Libro digital</a>
           </p>
         </div>
         <!-- image container -->
         <div class="col-xs-12 col-sm-9 col-md-8 col-lg-9">
           <h2>Album de melodías reharmonizadas</h2>
-          <p class="price">$8.50 <span>usd</span>
+          <p class="price">$7.90 <span>usd</span>
           </p>
           <p>A todos nuestros alumnos que estudian o que ya completaron el CURSO DE ARMONIA TONAL MODERNA les estamos ofreciendo, además de las 34 melodías armonizadas y de práctica incluidas en dicho curso, un complemento educativo que les permitirá
             reafirmar los conocimientos adquiridos. Les ofrecemos un álbum de más de 40 melodías del repertorio internacional con su armonía original y su rearmonización en un contexto moderno. Este álbum provee de un recurso excelente para analizar
@@ -197,7 +197,7 @@
           </p>
           <p><strong>Comprar</strong>
           </p>
-          <p><a href="#" class="btn btn-success btn-sm">Libro digital</a>  <a href="#" class="btn btn-primary btn-sm">Libro impreso</a>
+          <p><a target="_blank" target="_blank" href="http://www.playcreativepiano.com/es/store/albums" class="btn btn-success btn-sm">Libro digital</a>
           </p>
         </div>
         <!-- image container -->
@@ -207,7 +207,7 @@
           </p>
           <p>Estos arreglos para piano forman parte de los 12 volúmenes que forman el complemento didáctico del libro “El Arreglo para Piano” e ilustran la aplicación práctica de las técnicas del arreglo y la composición para piano que se explican
             en dicha obra y que pueden utilizarse en cualquier género de música.</p>
-          <p><a class="confirm btn btn-primary" role="button" href="http://www.playcreativepiano.com/es/store/albums">Ver todos los álbumes</a>
+          <p><a target="_blank" class="confirm btn btn-primary" role="button" href="http://www.playcreativepiano.com/es/store/albums">Ver todos los álbumes</a>
           </p>
         </div>
         <!-- text container -->

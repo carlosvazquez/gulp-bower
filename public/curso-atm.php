@@ -131,8 +131,21 @@
       <h4>COSTOS</h4>
       <p>Usted puede pagar por medio de su tarjeta de crédito o débito (Visa, Mastercard, etc.) de manera fácil y segura a través de PayPal. También puede realizar su pago por depósito bancario si usted se encuentra en México o Estados Unidos.</p>
       <p>En caso de no contar con alguna tarjeta usted puede hacer su pago por medio de Western Union o algún medio similar.</p>
-      <h2>3 PAGOS MENSUALES DE <strong>$70 usd</strong></h3>
-      <h2>CURSO COMPLETO (Mejor Precio) <strong>$199 usd</strong></h3>
+      <h2>3 PAGOS MENSUALES</h3>
+        <p>
+          <a target="_blank" href="http://www.playcreativepiano.com/es/products/37"><img src="images/CursoATM01-06.jpg" alt="" /></a> &nbsp; &nbsp; &nbsp;
+          <a target="_blank" href="http://www.playcreativepiano.com/es/products/38"><img src="images/CursoATM07-12.jpg" alt="" /></a> &nbsp; &nbsp; &nbsp;
+          <a target="_blank" href="http://www.playcreativepiano.com/es/products/39"><img src="images/CursoATM13-18.jpg" alt="" /></a></p>
+          <p class="lead">
+             De <strong>$70 usd</strong> Cada Uno.
+          </p>
+      <h2>CURSO COMPLETO (Mejor Precio)</h3>
+        <p>
+          <a target="_blank" href="http://www.playcreativepiano.com/es/products/36"><img src="images/CursoATM01-18.jpg" alt="" /></a>
+          </p>
+          <p class="lead">
+            <strong>$199 usd</strong>
+          </p>
     </div>
   </div>
 </div>
