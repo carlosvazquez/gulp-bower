@@ -47,25 +47,25 @@ $page_name = basename($_SERVER['PHP_SELF']);
 
 switch ($page_name) {
     case 'index.php':
-        $page_name = "home";
+        $page_name = 'home';
         break;
     case 'libros.php':
-        $page_name = "libros";
+        $page_name = 'libros';
         break;
     case 'curso-atm.php':
-        $page_name = "curso";
+        $page_name = 'curso';
         break;
     case 'blog.php':
-        $page_name = "blog";
+        $page_name = 'blog';
         break;
     case 'autor.php':
-        $page_name = "autor";
+        $page_name = 'autor';
         break;
     case 'contacto.php':
-        $page_name = "contacto";
+        $page_name = 'contacto';
         break;
     case 'gracias.php':
-        $page_name = "gracias";
+        $page_name = 'gracias';
         break;
 }
 ?>
